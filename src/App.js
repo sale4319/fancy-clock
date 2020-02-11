@@ -79,7 +79,7 @@ class App extends Component {
                 <div key={index}
                 className={`week item ${index===(this.state.week-1)?"active":""}`}
                 style={{transform: `rotate(${index*(360/21)-(360/21)*(this.state.week-1)}deg)`}}>
-                  {`week ${x}`}
+                  {`${x} week`}
                 </div>
               )
             })}
